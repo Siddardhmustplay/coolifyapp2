@@ -1,0 +1,48 @@
+html, body {
+    background-color: rgb(91, 206, 255);
+    color: white;
+}
+
+.lilita-one-regular {
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.header {
+    font-size: 300%;
+}
+.user-block {
+    margin-top: 10px;
+    background-color: cadetblue;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: xx-large;
+}
+.volume-buttons {
+    display: flex;
+    gap: 240px;
+    padding: 10px;
+    
+}
+.btn-sound {
+    border-radius: 10px;
+    background-color: bisque;
+    border: none;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+    color: black;
+    font-size: xx-large;
+}
+.btn-sound.active {
+    background-color: darkorange;
+    color: white;
+}
+.btn-exit{
+    background-color: red;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-size: xx-large;
+    margin-top: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 1.5);
+}

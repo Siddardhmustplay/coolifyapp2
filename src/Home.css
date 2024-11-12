@@ -1,0 +1,45 @@
+html, body {
+    background-color: rgb(91, 206, 255);
+    color: white;
+}
+
+.lilita-one-regular {
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.start-btn {
+    font-size: 300%;
+    background-color: green;
+    color: rgb(249, 249, 249);
+    bottom: 50px; /* Adjust this value to move it up or down */
+    border-radius: 10px;
+    margin-top: 300px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 1.3); /* Adds shadow */
+}
+
+.set-img {
+    width: 70%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.btn-back {
+    margin-top: 10px;
+    background-color: rgb(255, 0, 25);
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: x-large;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 1.5); /* Adds shadow */
+}
+
+.coins {
+    background-color: gold;
+    color: rgb(6, 5, 5);
+    font-size: xx-large;
+    border: 2px solid rgb(3, 3, 3);
+    border-radius: 5px;
+    margin-top: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 1.5); /* Adds shadow */
+}
